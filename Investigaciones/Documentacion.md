@@ -1,6 +1,6 @@
 ## 📊 Explicación de la Imagen
 
-![Descripción de la imagen](transcription)
+![Descripción de la imagen](Imagenes/transcription.png)
 
 
 ### **Análisis de Modelos de Transcripción de Voz a Texto para el Proyecto**
