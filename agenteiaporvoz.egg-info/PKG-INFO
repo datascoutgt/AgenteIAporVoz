@@ -1,3 +1,24 @@
+Metadata-Version: 2.4
+Name: agenteiaporvoz
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: markupsafe==3.0.1
+Requires-Dist: filelock==3.13.1
+Requires-Dist: fsspec==2024.6.1
+Requires-Dist: jinja2==3.1.4
+Requires-Dist: mpmath==1.3.0
+Requires-Dist: networkx==3.3
+Requires-Dist: numpy==2.1.2
+Requires-Dist: pillow==11.0.0
+Requires-Dist: setuptools==70.2.0
+Requires-Dist: sympy==1.13.3
+Requires-Dist: torch==2.7.0+cu128
+Requires-Dist: torchaudio==2.7.0+cu128
+Requires-Dist: torchvision==0.22.0+cu128
+Requires-Dist: typing-extensions==4.12.2
+
 # 🤖 Proyecto: Agente de IA con Interfaz por Voz y Consulta a Base de Datos
 
 ¡Hola comunidad! 👋  
@@ -42,3 +63,4 @@ Comparto este proyecto abierto para quienes quieran colaborar o aprender. El obj
 ---
 
 ## 📁 Estructura sugerida del repositorio
+
