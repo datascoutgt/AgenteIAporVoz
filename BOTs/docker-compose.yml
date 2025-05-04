@@ -1,0 +1,16 @@
+version: '3.3'
+services:
+  bot_01:
+    container_name: bot_01
+    ports:
+      - '50000:80'
+    build: .
+    image: bot_01
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: '3'
+    extra_hosts:
+      - 'host.docker.internal:host-gateway'
