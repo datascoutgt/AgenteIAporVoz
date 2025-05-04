@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+agenteiaporvoz.egg-info/PKG-INFO
+agenteiaporvoz.egg-info/SOURCES.txt
+agenteiaporvoz.egg-info/dependency_links.txt
+agenteiaporvoz.egg-info/requires.txt
+agenteiaporvoz.egg-info/top_level.txt
