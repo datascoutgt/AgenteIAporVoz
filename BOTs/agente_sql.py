@@ -25,16 +25,16 @@ def ejecutar_consulta_sql(prompt_usuario: str, api_key_path: str = "OpenAI_key.t
     # Inicializar modelo de lenguaje con temperatura baja (determinismo)
     llm = ChatOpenAI(openai_api_key=api_key, temperature=0)
 
-    # Configuración de conexión a PostgreSQL
     config = {
         'user': 'postgres',
-        'password': 'pass_prueba',
-        'host': '172.17.0.1:5433',
+        'password': 'pass',
+        'host': '172.17.0.1',
+        'port': '5433',
         'database': 'northwind'
     }
 
     # Cadena de conexión válida para SQLAlchemy
-    connection_string = f"postgresql+psycopg2://{config['user']}:{config['password']}@{config['host']}/{config['database']}"
+    connection_string = (f"postgresql+psycopg2://{config['user']}:{config['password']}"f"@{config['host']}:{config['port']}/{config['database']}")
 
     # Crear conexión a la base de datos
     try:
