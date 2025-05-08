@@ -42,4 +42,3 @@ Comparto este proyecto abierto para quienes quieran colaborar o aprender. El obj
 ---
 
 ## 📁 Estructura sugerida del repositorio
-

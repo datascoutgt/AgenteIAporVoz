@@ -1,0 +1,5 @@
+OpenAI_key.txt
+/venv
+/__pycache__/
+*.pyc
+*.pyo
